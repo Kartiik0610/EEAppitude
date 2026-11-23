@@ -42,8 +42,8 @@ export default function Header({
   const isTimeWarning = timeRemainingSeconds !== null && timeRemainingSeconds < 600;
 
   return (
-    <header className="sticky top-0 z-40 bg-slate-900/95 backdrop-blur-xl border-b border-white/10 text-white shadow-lg shadow-slate-950/20 transition-all">
-      <div className="w-[96%] sm:w-[94%] lg:w-[90%] max-w-[1700px] mx-auto px-2 sm:px-4 lg:px-6">
+    <header className="sticky top-0 z-40 bg-slate-900/95 backdrop-blur-xl border-b border-white/10 text-white shadow-lg shadow-slate-950/20 transition-all w-full">
+      <div className="w-full sm:w-[94%] lg:w-[90%] max-w-[1700px] mx-auto px-3 sm:px-4 lg:px-6">
         <div className="flex items-center justify-between h-14 sm:h-18">
           
           {/* Brand Logo & Presentation */}

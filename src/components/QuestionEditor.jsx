@@ -153,7 +153,7 @@ export default function QuestionEditor({
     <div className="space-y-6">
       
       {/* Top Controller Bar */}
-      <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+      <div className="bg-white p-4 sm:p-5 rounded-none sm:rounded-2xl shadow-none sm:shadow-sm border-x-0 sm:border border-y-0 sm:border-y border-slate-200 space-y-4">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div>
             <h3 className="text-lg font-black text-slate-900 tracking-tight">

@@ -414,7 +414,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-100/70 font-sans text-slate-800">
+    <div className="min-h-screen flex flex-col bg-slate-100/70 font-sans text-slate-800 w-full max-w-full overflow-x-hidden">
       
       {/* Global Navigation Header */}
       <Header
@@ -505,7 +505,7 @@ export default function App() {
       </main>
 
       {/* Corporate Industrial Footer */}
-      <footer className="bg-slate-900/90 backdrop-blur-md border-t border-white/10 text-slate-400 py-4 px-2 sm:px-4 text-xs">
+      <footer className="bg-slate-900/90 backdrop-blur-md border-t border-white/10 text-slate-400 py-4 px-3 sm:px-4 text-xs w-full">
         <div className="w-full sm:w-[94%] lg:w-[90%] max-w-[1700px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
           <div>
             <span className="font-extrabold text-slate-200">Echaar Equipments Pvt. Ltd.</span>

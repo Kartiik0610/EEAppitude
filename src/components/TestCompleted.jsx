@@ -52,14 +52,14 @@ export default function TestCompleted({
   const generalScore = Number(result.generalScore) || 0;
 
   return (
-    <div className="w-full min-h-[calc(100vh-5rem)] py-3 sm:py-8 px-1.5 sm:px-4 lg:px-8 flex items-center justify-center relative">
+    <div className="w-full min-h-[calc(100vh-3.5rem)] sm:min-h-[calc(100vh-5rem)] py-0 sm:py-8 px-0 sm:px-4 lg:px-8 flex items-center justify-center relative">
       
       {/* Background ambient lighting */}
       <div className="absolute top-10 left-1/4 w-96 h-96 bg-blue-300/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
       <div className="absolute bottom-10 right-1/4 w-96 h-96 bg-emerald-300/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
 
       {/* Main Container - Full Edge-to-Edge on Mobile, 90% on Desktop */}
-      <div className="w-full sm:w-[94%] lg:w-[90%] max-w-[1700px] glass-panel-elevated rounded-2xl sm:rounded-[32px] shadow-2xl border border-white/90 overflow-hidden relative mx-auto">
+      <div className="w-full sm:w-[94%] lg:w-[90%] max-w-[1700px] glass-panel-elevated rounded-none sm:rounded-[32px] shadow-none sm:shadow-2xl border-x-0 sm:border border-y-0 sm:border-y border-white/90 overflow-hidden relative mx-auto">
         
         {/* Executive Header Banner */}
         <div className="bg-gradient-to-r from-slate-900 via-industrial-900 to-slate-900 text-white px-4 sm:px-8 lg:px-10 py-5 sm:py-8 relative overflow-hidden">

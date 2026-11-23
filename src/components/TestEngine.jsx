@@ -267,10 +267,10 @@ export default function TestEngine({
   );
 
   return (
-    <div className="w-full sm:w-[94%] lg:w-[90%] max-w-[1700px] mx-auto px-1.5 sm:px-4 py-3 sm:py-6 space-y-3.5 sm:space-y-6">
+    <div className="w-full sm:w-[94%] lg:w-[90%] max-w-[1700px] mx-auto px-0 sm:px-4 py-0 sm:py-6 space-y-2 sm:space-y-6">
       
       {/* Top Test Banner Card */}
-      <div className="glass-panel-elevated rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-sm border border-white/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
+      <div className="glass-panel-elevated rounded-none sm:rounded-3xl border-x-0 sm:border border-t-0 sm:border-t border-b border-white/80 p-3.5 sm:p-5 shadow-none sm:shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div className="flex items-center space-x-3 min-w-0">
           <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl sm:rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white flex items-center justify-center font-black text-xs sm:text-sm shadow-md flex-shrink-0">
             {currentIndex + 1}
@@ -328,7 +328,7 @@ export default function TestEngine({
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
         
         {/* Left Column: Question Content */}
-        <div className="lg:col-span-8 glass-panel-elevated rounded-2xl sm:rounded-3xl shadow-sm border border-white/80 p-4 sm:p-8 space-y-5 sm:space-y-6">
+        <div className="lg:col-span-8 glass-panel-elevated rounded-none sm:rounded-3xl shadow-none sm:shadow-sm border-x-0 sm:border border-white/80 p-4 sm:p-8 space-y-5 sm:space-y-6">
           
           {/* Scenario Context if Problem-Solving */}
           {currentQ.scenario && (

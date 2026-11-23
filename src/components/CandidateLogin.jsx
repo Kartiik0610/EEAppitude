@@ -77,16 +77,16 @@ export default function CandidateLogin({
   };
 
   return (
-    <div className="w-full min-h-[calc(100vh-4rem)] sm:min-h-[calc(100vh-5rem)] py-3 sm:py-8 px-1.5 sm:px-4 flex items-center justify-center relative">
+    <div className="w-full min-h-[calc(100vh-3.5rem)] sm:min-h-[calc(100vh-5rem)] py-0 sm:py-8 px-0 sm:px-4 flex items-center justify-center relative">
       
       {/* Background Ambient Lights */}
       <div className="absolute top-10 left-1/4 w-72 sm:w-96 h-72 sm:h-96 bg-blue-300/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
       <div className="absolute bottom-10 right-1/4 w-72 sm:w-96 h-72 sm:h-96 bg-amber-200/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
 
-      <div className="w-full sm:w-[94%] lg:w-[90%] max-w-[1600px] glass-panel-elevated rounded-2xl sm:rounded-3xl shadow-2xl border border-white/80 overflow-hidden relative">
+      <div className="w-full sm:w-[94%] lg:w-[90%] max-w-[1600px] glass-panel-elevated rounded-none sm:rounded-3xl shadow-none sm:shadow-2xl border-x-0 sm:border border-y-0 sm:border-y border-white/80 overflow-hidden relative">
         
         {/* Compact Banner: Logo on Left, Information on Right (Minimizes Height) */}
-        <div className="bg-gradient-to-r from-slate-900 via-industrial-900 to-slate-900 px-5 sm:px-8 py-4 sm:py-5 text-white relative overflow-hidden">
+        <div className="bg-gradient-to-r from-slate-900 via-industrial-900 to-slate-900 px-4 sm:px-8 py-4 sm:py-5 text-white relative overflow-hidden">
           
           {/* Subtle ambient glow */}
           <div className="absolute -top-10 left-10 w-72 h-32 bg-blue-500/15 rounded-full blur-3xl pointer-events-none"></div>

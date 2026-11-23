@@ -137,17 +137,17 @@ export default function AdminLogin({
   };
 
   return (
-    <div className="w-full min-h-[calc(100vh-4rem)] sm:min-h-[calc(100vh-5rem)] py-6 sm:py-10 px-2 sm:px-6 lg:px-8 flex items-center justify-center relative">
+    <div className="w-full min-h-[calc(100vh-3.5rem)] sm:min-h-[calc(100vh-5rem)] py-0 sm:py-10 px-0 sm:px-6 lg:px-8 flex items-center justify-center relative">
       
       {/* Background Ambient Glass Glows */}
       <div className="absolute top-1/4 left-1/4 w-72 sm:w-96 h-72 sm:h-96 bg-blue-400/20 rounded-full blur-3xl pointer-events-none -z-10 animate-pulse"></div>
       <div className="absolute bottom-1/4 right-1/4 w-72 sm:w-96 h-72 sm:h-96 bg-amber-300/15 rounded-full blur-3xl pointer-events-none -z-10"></div>
 
       {/* 90% Widescreen Container */}
-      <div className="w-full sm:w-[96%] lg:w-[92%] 2xl:w-[90%] max-w-[1700px] glass-panel-elevated rounded-2xl sm:rounded-3xl shadow-2xl border border-white/80 overflow-hidden relative mx-auto">
+      <div className="w-full sm:w-[96%] lg:w-[92%] 2xl:w-[90%] max-w-[1700px] glass-panel-elevated rounded-none sm:rounded-3xl shadow-none sm:shadow-2xl border-x-0 sm:border border-y-0 sm:border-y border-white/80 overflow-hidden relative mx-auto">
         
         {/* Compact Banner: Logo on Left, Information on Right */}
-        <div className="bg-gradient-to-r from-slate-900 via-industrial-900 to-slate-900 text-white px-5 sm:px-8 py-5 sm:py-6 relative overflow-hidden">
+        <div className="bg-gradient-to-r from-slate-900 via-industrial-900 to-slate-900 text-white px-4 sm:px-8 py-4 sm:py-6 relative overflow-hidden">
           
           <div className="absolute -top-10 left-10 w-72 h-32 bg-blue-500/15 rounded-full blur-3xl pointer-events-none"></div>
 

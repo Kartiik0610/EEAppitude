@@ -109,8 +109,8 @@ export default function CandidateReportModal({
   const fieldQuestions = questions.filter(q => q.section === 'field');
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-slate-950/75 backdrop-blur-md flex items-center justify-center p-1 sm:p-4 lg:p-6 animate-in fade-in duration-150">
-      <div className="w-full sm:w-[94%] max-w-[1600px] bg-white rounded-2xl sm:rounded-3xl shadow-2xl border border-slate-200 overflow-hidden my-2 sm:my-4 max-h-[96vh] flex flex-col">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-slate-950/75 backdrop-blur-md flex items-center justify-center p-0 sm:p-4 lg:p-6 animate-in fade-in duration-150">
+      <div className="w-full sm:w-[94%] max-w-[1600px] bg-white rounded-none sm:rounded-3xl shadow-none sm:shadow-2xl border-x-0 sm:border border-slate-200 overflow-hidden my-0 sm:my-4 h-full sm:h-auto sm:max-h-[96vh] flex flex-col">
         
         {/* Modal Top Bar */}
         <div className="bg-industrial-900 text-white px-6 py-4.5 flex items-center justify-between border-b border-industrial-800 flex-shrink-0">

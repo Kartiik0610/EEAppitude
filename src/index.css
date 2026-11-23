@@ -3,9 +3,23 @@
 @tailwind utilities;
 
 @layer base {
+  html, body {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+  }
+
   body {
     @apply bg-gradient-to-br from-slate-100 via-sky-50/40 to-slate-100 text-slate-800 font-sans min-h-screen;
-    background-attachment: fixed;
+  }
+
+  @screen sm {
+    body {
+      background-attachment: fixed;
+    }
   }
 }
 

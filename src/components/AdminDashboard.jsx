@@ -158,10 +158,10 @@ export default function AdminDashboard({
   };
 
   return (
-    <div className="w-full sm:w-[96%] lg:w-[92%] 2xl:w-[90%] max-w-[1800px] mx-auto px-2 sm:px-6 py-5 sm:py-7 space-y-5 sm:space-y-6">
+    <div className="w-full sm:w-[96%] lg:w-[92%] 2xl:w-[90%] max-w-[1800px] mx-auto px-0 sm:px-6 py-0 sm:py-7 space-y-3 sm:space-y-6">
       
       {/* Top Welcome & KPI Metrics Bar (Senior Web Developer Enterprise Spec) */}
-      <div className="bg-white/95 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-5 sm:p-7 border border-slate-200/90 shadow-[0_4px_25px_-5px_rgba(15,23,42,0.06)] space-y-6">
+      <div className="bg-white/95 backdrop-blur-xl rounded-none sm:rounded-3xl p-4 sm:p-7 border-x-0 sm:border border-y-0 sm:border-y border-slate-200/90 shadow-none sm:shadow-[0_4px_25px_-5px_rgba(15,23,42,0.06)] space-y-5 sm:space-y-6">
         
         {/* Brand & Action Command Bar */}
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-5 border-b border-slate-100 pb-5">
@@ -376,7 +376,7 @@ export default function AdminDashboard({
 
       {/* TAB 1: CANDIDATE RESULTS OVERVIEW TABLE */}
       {activeTab === 'candidates' && (
-        <div className="bg-white/95 backdrop-blur-xl rounded-2xl sm:rounded-3xl border border-slate-200/90 shadow-[0_4px_25px_-5px_rgba(15,23,42,0.06)] overflow-hidden space-y-4 p-5 sm:p-6">
+        <div className="bg-white/95 backdrop-blur-xl rounded-none sm:rounded-3xl border-x-0 sm:border border-y-0 sm:border-y border-slate-200/90 shadow-none sm:shadow-[0_4px_25px_-5px_rgba(15,23,42,0.06)] overflow-hidden space-y-4 p-4 sm:p-6">
           
           {/* Table Filters & Search */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
